@@ -1,0 +1,580 @@
+body {
+    background-color: darkgray;
+    margin: 0;
+}
+
+
+/*first block*/
+
+#first_block{
+    background: url("../images/Main_section/Background .png") no-repeat center center;
+    background-size: cover;
+
+    height: 820px;
+}
+
+nav {
+    max-width: 1063px;
+    position: relative;
+
+    margin: 0 auto;
+    padding-top: 105px;
+
+}
+
+.left{
+    position: absolute;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+
+}
+
+.container {
+    max-width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content_block {
+
+    position: absolute;
+
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 270px 0 auto;
+
+    color: white;
+
+}
+
+.tittle_first {
+
+    margin-bottom: 30px;
+
+    text-align: right;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3.063em;
+}
+
+.text_first {
+
+    text-align: right;
+
+    font-family: 'muli', sans-serif;
+    font-weight: 300;
+    font-size: 0.875em;
+
+    margin-bottom: 30px;
+
+
+}
+
+
+.buttons{
+    margin: 0 auto;
+}
+
+.button {
+    width: 167px;
+    height: 48px;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.313em;
+    text-align: center;
+
+    display: inline-block;
+    line-height: 47px;
+
+    box-shadow: 0 3px 3px 0 rgba(0, 1, 1, 0.17);
+
+    margin: 0 17px;
+
+    cursor: pointer;
+    background: #eff3f3;
+
+    text-decoration: none;
+    color: #64707d;
+}
+
+.button:hover{
+
+    width: 163px;
+    height: 44px;
+
+    display: inline-block;
+    line-height: 44px;
+
+    border: 2px solid #ffffff;
+    outline: none;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+
+    cursor: pointer;
+}
+
+.white_phone{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin-top: 40px;
+}
+
+
+/*second block*/
+
+#second_block {
+    background: #5dade2;
+    color: white;
+    position: relative;
+
+    height: 143px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tittle_second{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.438em;
+    font-weight: 600;
+    line-height: 0.957;
+    margin-top: 43px;
+
+    letter-spacing: 0.02em;
+
+}
+
+.text_second{
+    width: 940px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.813em;
+    font-weight: 400;
+    line-height: 1.308;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    letter-spacing: 0.11em;
+
+}
+
+
+/*third block*/
+/*left*/
+#thirst_block_part1{
+    background: white;
+
+    position: relative;
+
+    height: 650px;
+
+
+}
+
+.content_block_2{
+    position: absolute;
+    top: 183px;
+    right: 0;
+
+    text-align: right;
+    color: #566473;
+
+}
+
+.tittle_thirst{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.875em;
+    font-weight: 600;
+    line-height: 3.071;
+
+    letter-spacing: 0.02em;
+
+}
+
+.text_thirst{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 1.714;
+
+    letter-spacing: 0.06em;
+
+}
+
+.black_phone1{
+    position: absolute;
+    margin-top: 78px;
+}
+
+/*right*/
+#thirst_block_part2{
+    background: #eff3f3;
+
+    position: relative;
+
+    height: 650px;
+}
+
+.content_block_3{
+    position: absolute;
+    top: 183px;
+    left: 0;
+
+    text-align: left;
+    color: #566473;
+}
+
+.black_phone2{
+    position: absolute;
+    margin-top: 78px;
+    right: 0;
+}
+
+
+/*fourth block*/
+
+#fourth_block{
+    background: url("../images/app_gallery/Layer 2.png") no-repeat;
+    background-size: cover;
+    position: relative;
+
+    height: 695px;
+
+    color: white;
+    text-align: center;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.content_block_4{
+    position: absolute;
+}
+
+.tittle_fourth{
+    font-size: 1.75em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+
+    margin-top: 75px;
+}
+
+.text_fourth{
+    color:  #ffffff;
+    font-size: 2.25em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+
+
+    margin-bottom: 45px;
+}
+
+
+
+
+/*fifth block*/
+#fifth_block{
+    background: #eff3f3;
+    height: 265px;
+    position: relative;
+}
+
+.slide{
+    position: relative;
+    max-width: 940px;
+    margin-top: -130px;
+}
+
+
+.users_image{
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    margin-top: 51px;
+
+    padding: 7px 7px 3px;
+
+    border-radius: 50%;
+    border: 3px solid #3498db;
+}
+
+.users_content{
+    position: absolute;
+    right: 0;
+    margin-right: 16px;
+    margin-top: 84px;
+
+    font-family: 'Raleway', sans-serif;
+    color:  #566473;
+}
+
+.users_name{
+    font-size: 1.597em;
+    font-weight: 500;
+    line-height: 1.643;
+    letter-spacing: 0.05em;
+}
+
+.users_text{
+    font-size: 0.799em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+
+}
+
+.controllers{
+    position: relative;
+    width: 1027px;
+    padding-top: 126px;
+    margin: 0 auto;
+
+
+}
+
+#previous{
+    position: absolute;
+    left: 0;
+
+}
+
+#next{
+    position: absolute;
+    right: 0;
+
+}
+
+.slider_buttons{
+    font-family: 'Nexa Light', sans-serif;
+    color:  rgba(52, 152, 219, 0.8);
+    font-size: 4.125em;
+    font-weight: 400;
+    line-height: 0.318;
+
+    cursor: pointer;
+}
+
+
+
+
+/*sixth block*/
+#sixth_block{
+    background: url("../images/newsletter/Layer 2 copy.png") no-repeat;
+    background-size: cover;
+    position: relative;
+
+    height: 285px;
+}
+
+.content_block_5{
+    position: absolute;
+
+    color: white;
+
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+
+}
+
+.tittle_fifth{
+    font-size: 1.875em;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+
+
+    margin-top: 115px;
+
+}
+
+.text_fifth{
+    font-size: 1.25em;
+    font-weight: 200;
+    line-height: 1.05;
+    letter-spacing: 0.05em;
+}
+
+.content_block_6{
+    position: absolute;
+    right: 0;
+    margin-top: 90px;
+
+}
+
+.form_field{
+    border: 2px solid rgba(239, 243, 243, 70);
+    box-sizing: border-box;
+    background-color:  rgba(239, 243, 243, 0.1);
+    width: 179px;
+    height: 43px;
+
+    padding: 22px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color:  #eff3f3;
+    font-size: 0.813em;
+    font-weight: 400;
+    line-height: 1.615;
+
+    margin: 10px;
+}
+
+.form_field:hover,
+.form_field:active{
+    color: white;
+}
+
+
+.subscribe{
+    text-align: center;
+
+    background:  #3498db;
+    width: 179px;
+    height: 43px;
+
+    font-family: 'Open Sans', sans-serif;
+    color:  #ffffff;
+    font-size: 1.25em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+    cursor: pointer;
+
+    margin-left: 109px;
+    margin-top: 13px;
+}
+
+.subscribe:hover{
+    background: rgba(52, 152, 219, 0.6);
+    border: 2px solid #ffffff;
+
+}
+
+button, button:active, button:focus {
+    border: none;
+    outline: none !important;
+}
+
+/*seventh block*/
+footer{
+    background: #1b1e20;
+    height: 299px;
+}
+
+.container_footer{
+    text-align: center;
+    color: #dde0e1;
+    width: 376px;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.content_block_7{
+    position: absolute;
+
+    margin-top: 76px;
+}
+
+.content_row1{
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 33px;
+}
+
+.text1{
+    font-family: 'Raleway', sans-serif;
+    color:  #dde0e1;
+    font-size: 1.875em;
+    font-weight: 700;
+    line-height: 0.7;
+    letter-spacing: 0.05em;
+
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+
+.text2{
+    font-family: 'Raleway', sans-serif;
+    color:  #dde0e1;
+    font-size: 1.875em;
+    font-weight: 400;
+    line-height: 0.7;
+    letter-spacing: 0.05em;
+
+    margin-top: 15px;
+    margin-right: 36px;
+
+}
+
+.button_footer{
+    border-radius: 5px;
+    background-color:  #eff3f3;
+    width: 197px;
+    height: 46px;
+
+    display: inline-block;
+
+    font-family: 'Open Sans', sans-serif;
+    color:  #1b1e20;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.913;
+    letter-spacing: 0.02em;
+
+}
+
+.button_footer:hover{
+    width: 193px;
+    height: 42px;
+
+    line-height: 2.713;
+
+    border: 2px solid #ffffff;
+    outline: none;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.copywriter{
+    font-family: 'Open Sans', sans-serif;
+
+    margin-top: 32px;
+
+    color:  #dde0e1;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.313;
+}
